@@ -15,7 +15,7 @@ It is used as a base model while a top model is used to refine the model based o
 ## Deployment
 
 The API accepting our image is deployed on [Python Anywhere](https://www.pythonanywhere.com/)
-The link of our REST API is as such: (http://rishabh3699.pythonanywhere.com/)
+The link of our REST API is as such: [API](http://rishabh3699.pythonanywhere.com/)
 
 ## Libraries Used
 
@@ -26,7 +26,7 @@ The link of our REST API is as such: (http://rishabh3699.pythonanywhere.com/)
 
 ## Accuracy and loss plot
 
-!(https://github.com/rijul10/covidapp/blob/master/plot.png)
+![picturealt](https://github.com/rijul10/covidapp/blob/master/plot.png)
 
 
 .
