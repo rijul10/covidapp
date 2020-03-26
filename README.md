@@ -2,6 +2,19 @@
 
 This application is made as a submission in the DSC HACKATHON SURAT - HackCovid 19.
 
+Since the virus in question attacks our respiratory system and hinders breathing ability, doctors have concluded that an efficient way to predict the prognosis is to examine the X-ray of patients.
+
+We have employed Deep Learning in our application which uses the VGG16 which is a deep convolutional network for object recognition.
+
+We have used the VGG16 as the base model and on top a custom made model to suit the requirements of the application. 
+
+DATASET USED - [Dataset of Covid patients](https://github.com/ieee8023/covid-chestxray-dataset.git)
+
+Accuracy obtained - 90%
+
+Specificity - 80% i.e. People who dont have covid and are diagnosed as negative
+**Sensitivity** - 100% i.e. People who have covid and are diagnosed as positive **which shows that there is no scope of error in the prognosis**
+
 ## Objective
 
 1. Use of deep learning in the app to predict whether the user is prone to coronavirus.
