@@ -13,7 +13,8 @@ DATASET USED - [Dataset of Covid patients](https://github.com/ieee8023/covid-che
 Accuracy obtained - 90%
 
 Specificity - 80% i.e. People who dont have covid and are diagnosed as negative
-**Sensitivity** - 100% i.e. People who have covid and are diagnosed as positive **which shows that there is no scope of error in the prognosis**
+
+Sensitivity - 100% i.e. People who have covid and are diagnosed as positive **which shows that there is no scope of error in the prognosis**
 
 ## Objective
 
