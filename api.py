@@ -46,8 +46,15 @@ def uploader():
 		
 		image = flask.request.files["file"].read()
 		image = Image.open(io.BytesIO(image))
+		image = cv2.cvtColor(np.float32(image), cv2.COLOR_BGR2RGB)
+		image = cv2.resize(image, (224, 224))
+		image = np.array(image)
+		image = image / 255.0
+		image = np.expand_dims(image, axis=0)
 
-		image = prepare_image(image)
+# 		image = prepare_image(image)
+		global model
+		model = load_model('my_model.h5')
 
         
 		preds = model.predict(image.tolist(), batch_size = 1).tolist()
