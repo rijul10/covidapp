@@ -28,7 +28,7 @@ The link of our REST API is as such: [API](http://rishabh3699.pythonanywhere.com
 
 ## Accuracy and loss plot
 
-![picturealt](https://github.com/rijul10/covidapp/blob/master/plot.png)
+![picturealt](https://github.com/rijul10/covidapp/blob/master/plot1.png)
 
 ### Accuracy
 ![picturealt](https://github.com/rijul10/covidapp/blob/master/ACC.PNG)
