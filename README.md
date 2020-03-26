@@ -1,6 +1,6 @@
 # Covid-app 2020
 
-This application is made as a submission in the DSC HACKATHON SURAT names HackCovid 19.
+This application is made as a submission in the DSC HACKATHON SURAT - HackCovid 19.
 
 ## Objective
 
