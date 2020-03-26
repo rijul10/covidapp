@@ -30,6 +30,9 @@ The link of our REST API is as such: [API](http://rishabh3699.pythonanywhere.com
 
 ![picturealt](https://github.com/rijul10/covidapp/blob/master/plot.png)
 
+### Accuracy
+![picturealt](https://github.com/rijul10/covidapp/blob/master/ACC.PNG)
+
 ## Application
 
 The application is developed in flutter. It can be run simply by downloading app-release.apk and installing in your mobile phone. It accesses the API(link above) to use the trained model to predict COVID-19. A live tracker is also included in the application to keep track of status of COVID-19 cases around the world.
