@@ -10,7 +10,9 @@ This application is made as a submission in the DSC HACKATHON SURAT - HackCovid 
 ## Architecture
 
 The deep learning model uses VGG-16 architecture which is a deep convolutional network for object recognition developed and trained by **Oxford's renowned Visual Geometry Group (VGG)**, which achieved very good performance on the ImageNet dataset.
-It is used as a base model while a top model is used to refine the model based on the requirements of this application.
+It is used as a base model while a top model is used to refine the model based on the requirements of this application. The weights used are pre-trained of the imagenet dataset and the architecture of the entire model is shown as below: -
+
+![pictureaalt](https://github.com/rijul10/covidapp/blob/master/Screenshot%20from%202020-03-26%2011-21-12.png)
 
 ## Deployment
 
